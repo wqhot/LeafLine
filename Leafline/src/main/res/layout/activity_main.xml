@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/picker_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选择照片" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/debugView" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:src="@mipmap/icon_placeholder"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/imageLeaf" />
+
+    <!--<GridView-->
+        <!--android:id="@+id/gridview"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:numColumns="1"-->
+        <!--android:verticalSpacing="2dip"-->
+        <!--android:horizontalSpacing="2dip"-->
+        <!--android:stretchMode="columnWidth"-->
+        <!--android:cacheColorHint="@android:color/transparent"-->
+        <!--android:listSelector="@android:color/transparent" />-->
+
+
+</LinearLayout>
